@@ -1,0 +1,22 @@
+﻿# Node / tooling
+node_modules/
+dist/
+.vscode/
+.DS_Store
+
+# Env & local secrets
+.env
+.env.*
+!.env.example
+
+# Build/cache
+*.log
+.cache/
+.temp/
+.svelte-kit/
+.next/
+out/
+coverage/
+
+# Misc
+.bolt/
